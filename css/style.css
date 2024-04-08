@@ -1,0 +1,127 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+.container {
+  background-color: #ffc8dd;
+  width: 400px;
+  height: 300px;
+  margin: 20px auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.categories {
+  background-color: #bde0fe;
+  height: 40px;
+  display: flex;
+  text-align: center;
+}
+
+.login {
+  background-color: #c1121f;
+  width: 200px;
+  color: white;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.daftar {
+  background-color: #e41c2a;
+  width: 200px;
+  color: white;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.login:hover {
+  background-color: #c1121f;
+}
+.daftar:hover {
+  background-color: #c1121f;
+}
+
+/* Content Form Login */
+
+.content-login form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.content-login label {
+  font-size: larger;
+  margin-bottom: 5px;
+}
+
+.email,
+.password-login {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.content-login input {
+  width: 250px; /* Lebar input */
+  padding: 10px; /* Padding input */
+  border: none; /* Border input */
+  border-radius: 5px; /* Sudut bulat input */
+}
+
+button {
+  padding: 10px 20px; /* Padding tombol */
+  background-color: #007bff; /* Warna latar belakang tombol */
+  color: white; /* Warna teks tombol */
+  border: none; /* Hapus border tombol */
+  border-radius: 5px; /* Sudut bulat tombol */
+  margin-top: 10px;
+  cursor: pointer; /* Ubah kursor saat di atas tombol */
+}
+
+button:hover {
+  background-color: #0056b3; /* Warna latar belakang tombol saat hover */
+}
+
+/* Content Form Daftar */
+.content-daftar {
+  display: none;
+}
+.content-daftar form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.content-daftar label {
+  font-size: larges;
+  margin-bottom: 5px;
+}
+
+.nama,
+.nohp,
+.password-daftar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.content-daftar input {
+  width: 250px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* CSS Teks Typing */
+
+.teksType {
+  font-size: 30px;
+  color: #3a86ff;
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+  margin-top: 100px;
+  font-weight: bold;
+}
