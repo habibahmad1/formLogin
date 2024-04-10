@@ -30,7 +30,7 @@ function berhasilDaftar() {
 
 // Fungsi Teks
 const elementTeks = document.querySelector(".teksType");
-const teksNow = "Selamat Datang Di Web Saya 😀";
+const teksNow = "Selamat Datang";
 const speedTeks = 100;
 const teksUlang = 2000;
 
