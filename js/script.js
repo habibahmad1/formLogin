@@ -54,6 +54,6 @@ function resetTeks() {
 
 typeTeks();
 
-window.addEventListener("keydown", (event) => {
-  alert("Anda telah menekan tombol: " + event.key);
-});
+// window.addEventListener("keydown", (event) => {
+//   alert("Anda telah menekan tombol: " + event.key);
+// });
